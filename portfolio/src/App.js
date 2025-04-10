@@ -1,23 +1,16 @@
 import React from 'react';
+import Container from '@mui/material/Container';
+import Box from '@mui/material/Box';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-     
-        <p>
-          test test
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container maxWidth="sm">
+      <p>hello chat</p>
+      {/* Box with some content */}
+      <Box sx={{ bgcolor: '#cfe8fc', height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <p>Welcome to the Box!</p>
+      </Box>
+    </Container>
   );
 }
 
