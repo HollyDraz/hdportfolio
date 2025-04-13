@@ -1,33 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to top, #ccefff, #e0f7ff);
+  overflow-x: hidden;
+}
 
-.header{
-  color: white;
-  padding: 100px;
+.App {
   text-align: center;
 }
 
-
- p{
-  color: #190500;
-  font-size: 1.2em;
-  text-align: center;
-}
-
-body{
-  background-color:#66D0FF;
-}
-
-/* HTML: <div class="cloud"></div> */
+/* Cloud styling */
 .cloud {
-  height: 300px; /* control the size */
-  aspect-ratio: 1.8;
-  --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
-  mask: var(--g) 100% 100%/30% 60%,var(--g) 70% 0/50% 100%,var(--g) 0 100%/36% 68%,var(--g) 27% 18%/26% 40%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
-  background: #269af2;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow:
+    30px 30px 60px #fff,
+    -30px 30px 60px #fff,
+    0px 60px 60px #fff;
+  height: 200px;
+  width: 350px;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+  animation: float 6s ease-in-out infinite;
 }
-.cloud2 {
-  height: 300px; /* control the size */
-  aspect-ratio: 1.8;
-  --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
-  mask: var(--g) 100% 100%/30% 60%,var(--g) 70% 0/50% 100%,var(--g) 0 100%/36% 68%,var(--g) 27% 18%/26% 40%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
-  background: #089e12;
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+.section {
+  margin: 60px 20px;
+  padding: 40px 20px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
 }

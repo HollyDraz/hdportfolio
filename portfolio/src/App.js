@@ -1,20 +1,17 @@
 import React from 'react';
-import './App.css';  
-
+import './App.css';
+import Hero from './components/Hero';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <div className="App">
-      <div class="cloud">
-      <h1 className='header'>Holly Drazenovich</h1>
-      </div>
-     <div class="cloud2">   <p className='header'>Software Engineer</p></div>
-
-
-      <p className='about'>About me</p>
-      <p className='projects'>Projects</p>
-      <p className='contact'>Contact me</p>
-      <p className='connect'>LinkedIn</p>
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
     </div>
   );
 }
