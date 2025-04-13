@@ -1,8 +1,10 @@
 import React from 'react';
+import './About.css';
+
 
 function About() {
   return (
-    <div className="section">
+    <div className="abtsection">
       <h2>About Me</h2>
       <p>
         I'm Holly, a software engineer who loves building beautiful, intuitive apps.
