@@ -12,9 +12,9 @@ function About() {
       <div className="abouttxt">
         <h2>About Me</h2>
         <p>
-          I'm Holly, a software engineer who loves building beautiful, intuitive apps.
-          I have a background in hospitality and teaching, and I bring that energy
-          to tech through creative and accessible design.
+        Hi I'm Holly! With over five years of experience in sales, hospitality, and customer service,
+         seamlessly transitioning into the dynamic realm of tech and software development.
+         Evolving from avidly scrolling through websites to actively constructing them, showcasing the intersection of software engineering and creative innovation.
         </p>
       </div>
     </div>

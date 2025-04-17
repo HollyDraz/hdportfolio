@@ -1,14 +1,14 @@
 import React from 'react';
+import './Projects.css';
+
 
 function Projects() {
   return (
-    <div className="section">
+    <div className="prgsection">
       <h2>Projects</h2>
-      <ul>
-        <li><strong>Record Scratch</strong> – Full-stack music tracker built with React & SQL</li>
-        <li>POS System Optimizer – Internal tool for Apicii Hospitality</li>
-        <li>Cocktail Recipe Finder – Fun JS/React app with cocktail API</li>
-      </ul>
+      <h3>tags</h3>
+      <p>carsoul here for filtinger through prjects</p>
+
     </div>
   );
 }
