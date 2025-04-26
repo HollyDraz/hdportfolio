@@ -7,7 +7,7 @@ function Projects() {
     <div className="prgsection">
       <h2>Projects</h2>
       <h3>tags</h3>
-      <p>carsoul here for filtinger through prjects</p>
+      <p>carsoul here for filter through projects</p>
 
     </div>
   );
