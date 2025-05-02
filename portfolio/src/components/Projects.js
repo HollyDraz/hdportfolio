@@ -5,9 +5,20 @@ import './Projects.css';
 function Projects() {
   return (
     <div className="prgsection">
-      <h2>Projects</h2>
-      <h3>tags</h3>
-      <p>carsoul here for filter through projects</p>
+     <div className="slideshow">
+     <div class="card">
+    <h4><b>Project 1</b></h4>
+    <p>Architect & Engineer</p>
+    </div>
+    <div class="card">
+    <h4><b>Project 2</b></h4>
+    <p>Architect & Engineer</p>
+    </div>
+    <div class="card">
+    <h4><b>Project 3</b></h4>
+    <p>Architect & Engineer</p>
+    </div>
+    </div>
 
     </div>
   );
