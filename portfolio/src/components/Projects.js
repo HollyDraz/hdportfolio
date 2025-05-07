@@ -6,6 +6,8 @@ function Projects() {
   return (
     <div className="prgsection">
      <div className="slideshow">
+      <br/>
+      <h2 className="prgheader">Projects</h2>
      <div class="card">
     <h4><b>Stardew TODO</b></h4>
     <a href='https://github.com/HollyDraz/stardew_todo'>REPO</a>
